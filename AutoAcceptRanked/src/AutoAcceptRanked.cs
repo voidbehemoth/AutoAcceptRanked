@@ -7,7 +7,7 @@ namespace AutoAcceptRanked
     {
         public static void Start()
         {
-            AutoAcceptRanked.Utils.Logger.Log(AutoAcceptRanked.ModInfoPLUGIN_NAME + "has loaded!");
+            AutoAcceptRanked.Utils.Logger.Log(AutoAcceptRanked.ModInfo.PLUGIN_NAME + "has loaded!");
         }
     }
 
