@@ -15,7 +15,7 @@ namespace AutoAcceptRanked
         }
     }
 
-    [HarmonyPatch(typeof(RankedTimerPanelController), nameof(RankedTimerPanelController.HandleAcceptRankedPopup)]
+    [HarmonyPatch(typeof(RankedTimerPanelController), nameof(RankedTimerPanelController.HandleAcceptRankedPopup))]
     public class RankedTimerPatch
     {
         [HarmonyPrefix]
