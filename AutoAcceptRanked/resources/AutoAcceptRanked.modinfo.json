@@ -1,10 +1,10 @@
 {
-  "HarmonyId": "developer.AutoAcceptRanked",
-  "DisplayName": "AutoAcceptRanked",
+  "HarmonyId": "voidbehemoth.AutoAcceptRanked",
+  "DisplayName": "Auto Accept Ranked",
   "Authors": [
-    "developer"
+    "VoidBehemoth"
   ],
-  "Description": "",
+  "Description": "Automatically accepts the ranked queue confirmation message when enabled.",
   "Version": "1.0.0",
   "RequiredMods": [],
   "Settings": {}
