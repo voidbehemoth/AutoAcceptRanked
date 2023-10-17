@@ -1,0 +1,11 @@
+{
+  "HarmonyId": "developer.AutoAcceptRanked",
+  "DisplayName": "AutoAcceptRanked",
+  "Authors": [
+    "developer"
+  ],
+  "Description": "",
+  "Version": "1.0.0",
+  "RequiredMods": [],
+  "Settings": {}
+}
