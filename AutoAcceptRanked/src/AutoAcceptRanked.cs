@@ -21,6 +21,7 @@ namespace AutoAcceptRanked
         [HarmonyPrefix]
         public static bool Prefix() 
         {
+            Utils.Logger.Log("Skipping popup...");
             RankedQueueResponseMessage msg = new RankedQueueResponseMessage(RankedQueueResponseMessage.ResponseType.AcceptQueue);
             Service.Home.NetworkService.SendMessage(msg);
 
